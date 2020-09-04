@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="functions.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
+	<title>Lab 9. Events in Javascript</title>
+</head>
+<body>
+	<h1>Lab 9. Events in Javascript </h1>
+
+	</br>
+	
+	<h2>This is a button changes colour when mouse is over</h2>
+	 <center><button id="color" name="color" value="color" onmouseover="changeColor('color','red')" onmouseout="changeColor('color','black')">Put the cursor here</button></center>
+
+<hr/>
+
+<h2>This is a button changes size when mouse is over</h2>
+	 <center><button name = "dimensions" id = "dimensions" value = "dimensions"  onmousedown=" changeDim('dimensions','120px','80px')" onmouseup=" changeDim ('dimensions','100px', '30px')">Press here</button></center>	
+	 <hr/>
+	 <center><div id="concealable">
+ <ol>
+  <li> Class1 </li>
+  <li> Class2 </li>
+  <li> Class3 </li>
+  <li> Class4 </li>
+  <li> Class5 </li>
+  <li> Class6 </li>
+ </ol>
+</div>
+</center>
+ <center><button id="show" name="show" value="show" onclick=" changeVisibility ('concealable','hidden')">Hide</button> <button id="show" name="show" value="show" onclick=" changeVisibility ('concealable','visible')">Show</button></center>
+ <hr/>
+
+<center><label
+  id="tag"
+  onmousemove="changeFont('tag','Tahoma','large')"
+  onmouseout="changeFont('tag','Times','small')">
+    This text changes typeface
+</label> 
+</center>
+
+<hr/>
+<center><img src="images/on.jpg" id="image" onmousemove="changeImage('image','images/on.jpg')" onmouseout="changeImage ('image','images/apag.jpg')"/> 
+</center>
+
+
+</body>
+</html> 

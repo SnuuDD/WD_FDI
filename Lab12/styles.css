@@ -1,0 +1,65 @@
+#header-section{
+background-color:#F44336;
+color:#fff;
+height:200px;
+padding-top: 5%;
+font-family: 'Mina', sans-serif;
+text-align:center;
+color: #FFF;
+font-size: 3em;
+} 
+#main-navbar{
+	font-family: 'Mina', sans-serif;
+justify-content: initial;
+}
+#section1 {
+font-family: 'Mina', sans-serif;
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #1E88E5;
+height: auto;
+}
+#section2 {
+font-family: 'Mina', sans-serif;
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #673ab7;
+height: auto;
+}
+#section3 {
+font-family: 'Mina', sans-serif;
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #ff9800;
+height: auto;
+}
+#section41 {
+font-family: 'Mina', sans-serif;
+padding-top:100px;
+height:500px;
+color: #fff;
+background-color: #00bcd4;
+height: auto;
+}
+#section42 {
+font-family: 'Mina', sans-serif;
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #009688;
+height: auto;
+}
+#section5 {
+font-family: 'Mina', sans-serif;
+padding-top:50px;
+height:500px;
+color: #fff;
+background-color: #bb9bef;
+height: auto;
+}
+a:hover {
+cursor:pointer;
+}
